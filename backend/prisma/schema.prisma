@@ -1,0 +1,165 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String           @id @default(uuid())
+  username        String           @unique
+  passwordHash    String
+  role            String
+  displayName     String
+  uploads         RawUpload[]
+  reviewerActions ReviewerAction[]
+  verifiedLoans   VerifiedLoan[]
+  auditLogs       AuditLog[]
+}
+
+model RawUpload {
+  id          String          @id @default(uuid())
+  filename    String
+  uploadedAt  DateTime        @default(now())
+  uploaderId  String
+  uploader    User            @relation(fields: [uploaderId], references: [id])
+  status      String
+  rawRowCount Int             @default(0)
+  rawRecords  LoanRecordRaw[]
+}
+
+model LoanRecordRaw {
+  id               String                @id @default(uuid())
+  uploadId         String
+  upload           RawUpload             @relation(fields: [uploadId], references: [id])
+  sourceRowNumber  Int
+  rawData          String
+  createdAt        DateTime              @default(now())
+  normalizedRecord LoanRecordNormalized?
+}
+
+model LoanRecordNormalized {
+  id                String        @id @default(uuid())
+  rawRecordId       String        @unique
+  rawRecord         LoanRecordRaw @relation(fields: [rawRecordId], references: [id])
+
+  loanId            String?
+  borrowerId        String?
+  loanType          String?
+  originationDate   DateTime?
+  maturityDate      DateTime?
+  originalPrincipal Float?
+  currentBalance    Float?
+  interestRate      Float?
+  termMonths        Int?
+  borrowerState     String?
+  loanPurpose       String?
+  creditGrade       String?
+  employmentLength  String?
+  incomeBand        String?
+  paymentStatus     String?
+  daysPastDue       Int?
+  servicerName      String?
+  lastPaymentDate   DateTime?
+  lastUpdatedAt     DateTime?
+  documentStatus    String?
+  sourceSource      String?
+  sourceSystem      String?
+
+  exceptions        Exception[]
+  verifiedRecord    VerifiedLoan?
+}
+
+model ValidationRule {
+  id          String      @id
+  description String
+  severity    String
+  config      String?
+  exceptions  Exception[]
+}
+
+model Exception {
+  id                 String               @id @default(uuid())
+  normalizedRecordId String
+  normalizedRecord   LoanRecordNormalized @relation(fields: [normalizedRecordId], references: [id])
+  ruleId             String
+  rule               ValidationRule       @relation(fields: [ruleId], references: [id])
+  severity           String
+  status             String               @default("open")
+  metadata           String?
+  createdAt          DateTime             @default(now())
+
+  reviewerActions   ReviewerAction[]
+  aiRecommendations AiRecommendation[]
+}
+
+model ReviewerAction {
+  id          String    @id @default(uuid())
+  exceptionId String
+  exception   Exception @relation(fields: [exceptionId], references: [id])
+  reviewerId  String
+  reviewer    User      @relation(fields: [reviewerId], references: [id])
+  action      String
+  comment     String?
+  timestamp   DateTime  @default(now())
+}
+
+model AiRecommendation {
+  id            String         @id @default(uuid())
+  exceptionId   String
+  exception     Exception      @relation(fields: [exceptionId], references: [id])
+  prompt        String
+  model         String
+  response      String
+  status        String
+  timestamp     DateTime       @default(now())
+  verifiedLoans VerifiedLoan[]
+}
+
+model VerifiedLoan {
+  id                 String               @id @default(uuid())
+  normalizedRecordId String               @unique
+  normalizedRecord   LoanRecordNormalized @relation(fields: [normalizedRecordId], references: [id])
+  reviewerId         String
+  reviewer           User                 @relation(fields: [reviewerId], references: [id])
+  aiRecommendationId String?
+  aiRecommendation   AiRecommendation?    @relation(fields: [aiRecommendationId], references: [id])
+
+  recordHash         String
+  validationResult   String
+  reviewerDecision   String
+  verifiedAt         DateTime             @default(now())
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  actorId    String?
+  actor      User?    @relation(fields: [actorId], references: [id])
+  actionType String
+  entity     String
+  entityId   String
+  metadata   String?
+  timestamp  DateTime @default(now())
+}
+
+model Alert {
+  id          String   @id @default(uuid())
+  severity    String
+  message     String
+  isRead      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  referenceId String?
+}
+
+model WarehouseRecord {
+  id             String   @id @default(uuid())
+  loanId         String
+  borrowerId     String?
+  currentBalance Float?
+  interestRate   Float?
+  creditGrade    String?
+  paymentStatus  String?
+  migratedAt     DateTime @default(now())
+}

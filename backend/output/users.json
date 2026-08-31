@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "operator1",
+      "password": "operator123",
+      "role": "data_operator",
+      "display_name": "Data Operator"
+    },
+    {
+      "username": "reviewer1",
+      "password": "reviewer123",
+      "role": "reviewer",
+      "display_name": "Loan Reviewer"
+    },
+    {
+      "username": "consumer1",
+      "password": "consumer123",
+      "role": "data_consumer",
+      "display_name": "Data Consumer"
+    }
+  ]
+}

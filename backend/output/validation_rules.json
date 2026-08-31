@@ -1,0 +1,82 @@
+{
+  "rules": [
+    {
+      "id": "missing_loan_id",
+      "description": "loan_id must not be blank",
+      "severity": "critical"
+    },
+    {
+      "id": "duplicate_loan_id",
+      "description": "loan_id must be unique across the tape",
+      "severity": "high"
+    },
+    {
+      "id": "duplicate_borrower_amount_origination",
+      "description": "borrower_id + original_principal + origination_date combination must not repeat",
+      "severity": "medium"
+    },
+    {
+      "id": "invalid_date_format",
+      "description": "origination_date and maturity_date must be valid ISO dates (YYYY-MM-DD)",
+      "severity": "high"
+    },
+    {
+      "id": "maturity_before_origination",
+      "description": "maturity_date must be after origination_date",
+      "severity": "high"
+    },
+    {
+      "id": "negative_balance",
+      "description": "current_balance must not be negative",
+      "severity": "critical"
+    },
+    {
+      "id": "balance_exceeds_original",
+      "description": "current_balance must not exceed original_principal",
+      "severity": "high"
+    },
+    {
+      "id": "interest_rate_out_of_range",
+      "description": "interest_rate must fall between 2.0 and 9.0",
+      "severity": "medium",
+      "min": 2.0,
+      "max": 9.0
+    },
+    {
+      "id": "status_dpd_mismatch",
+      "description": "payment_status must be consistent with days_past_due thresholds",
+      "severity": "medium"
+    },
+    {
+      "id": "missing_document_status",
+      "description": "document_status must not be blank",
+      "severity": "low"
+    },
+    {
+      "id": "servicer_conflict",
+      "description": "loan_tape and servicer_update values must match for overlapping fields",
+      "severity": "high"
+    },
+    {
+      "id": "stale_record",
+      "description": "last_updated_at must be within the last 12 months",
+      "severity": "low"
+    },
+    {
+      "id": "invalid_state_code",
+      "description": "borrower_state must be a valid two-letter US state code",
+      "severity": "medium"
+    },
+    {
+      "id": "suspicious_repeated_borrower",
+      "description": "flag borrower_ids appearing on an unusually high number of loans",
+      "severity": "medium",
+      "threshold": 5
+    },
+    {
+      "id": "closed_loan_positive_balance",
+      "description": "loans with payment_status closed_paid or closed_default must have current_balance == 0",
+      "severity": "high"
+    }
+  ]
+}

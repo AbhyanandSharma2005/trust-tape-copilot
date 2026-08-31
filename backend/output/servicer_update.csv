@@ -1,0 +1,419 @@
+loan_id,current_balance,payment_status,days_past_due,last_updated_at,servicer_name
+LN100010,184422.28,current,56,2026-07-18,Northstar Mortgage Svc
+LN100013,272425.62,closed_default,82,2025-11-04,Summit Home Loans
+LN100016,544677.66,30_dpd,18,2025-06-02,Coastal Capital Servicing
+LN100019,185141.27,90plus_dpd,44,2025-11-18,Meridian Loan Servicing
+LN100022,201978.66,current,0,2026-10-07,Northstar Mortgage Svc
+LN100024,580075.2,30_dpd,27,2025-10-20,Summit Home Loans
+LN100033,168291.02,current,92,2025-07-17,BluePeak Servicing
+LN100036,84423.68,current,0,2026-10-03,Coastal Capital Servicing
+LN100041,77163.21,30_dpd,118,2025-10-22,Northstar Mortgage Svc
+LN100044,400982.62,90plus_dpd,5,2025-11-22,BluePeak Servicing
+LN100045,515782.47,closed_default,19,2025-03-18,Coastal Capital Servicing
+LN100050,468423.89,30_dpd,11,2025-10-30,Northstar Mortgage Svc
+LN100051,121460.41,current,0,2026-11-22,Coastal Capital Servicing
+LN100070,78661.78,closed_default,49,2025-10-18,Summit Home Loans
+LN100074,262563.25,closed_paid,0,2026-01-16,Summit Home Loans
+LN100076,139549.97,closed_default,77,2026-06-25,Northstar Mortgage Svc
+LN100077,129220.17,closed_paid,53,2025-07-11,BluePeak Servicing
+LN100083,247026.18,closed_default,23,2026-05-27,BluePeak Servicing
+LN100090,262277.53,90plus_dpd,110,2026-09-23,Meridian Loan Servicing
+LN100091,526577.18,current,0,2025-02-19,Summit Home Loans
+LN100092,134436.14,current,0,2026-07-18,Meridian Loan Servicing
+LN100102,211444.93,current,0,2025-07-09,Coastal Capital Servicing
+LN100105,466457.37,90plus_dpd,58,2026-08-01,Meridian Loan Servicing
+LN100116,238766.25,current,0,2026-12-16,BluePeak Servicing
+LN100120,259378.77,current,0,2026-05-18,Meridian Loan Servicing
+LN100121,247237.89,60_dpd,56,2026-01-04,Northstar Mortgage Svc
+LN100123,227624.99,30_dpd,92,2026-10-03,Meridian Loan Servicing
+LN100125,608741.64,closed_paid,0,2025-01-28,Coastal Capital Servicing
+LN100133,219442.86,closed_paid,64,2026-10-31,Coastal Capital Servicing
+LN100135,164093.54,current,56,2025-05-01,Summit Home Loans
+LN100136,463723.28,current,0,2026-06-11,Coastal Capital Servicing
+LN100140,93906.97,current,0,2025-01-10,Meridian Loan Servicing
+LN100143,179030.95,30_dpd,10,2026-09-01,BluePeak Servicing
+LN100146,371832.76,90plus_dpd,44,2026-06-20,BluePeak Servicing
+LN100149,192035.85,current,0,2025-10-17,Meridian Loan Servicing
+LN100150,196873.76,90plus_dpd,3,2025-08-27,BluePeak Servicing
+LN100157,222720.3,current,0,2026-06-23,BluePeak Servicing
+LN100166,318760.28,closed_paid,70,2026-05-18,Northstar Mortgage Svc
+LN100171,281422.48,closed_paid,112,2025-12-19,Northstar Mortgage Svc
+LN100172,305924.6,current,0,2025-11-07,Coastal Capital Servicing
+LN100178,435574.75,current,0,2026-02-19,Summit Home Loans
+LN100181,262477.85,30_dpd,73,2025-06-12,Northstar Mortgage Svc
+LN100182,319109.1,current,0,2025-11-16,Coastal Capital Servicing
+LN100185,201003.88,current,0,2025-05-01,Meridian Loan Servicing
+LN100186,110585.31,current,106,2026-08-11,Meridian Loan Servicing
+LN100196,300412.43,current,0,2026-12-18,Northstar Mortgage Svc
+LN100208,311929.87,current,0,2025-07-18,Coastal Capital Servicing
+LN100209,483791.38,current,115,2025-07-18,Northstar Mortgage Svc
+LN100210,293915.62,30_dpd,23,2026-05-07,Coastal Capital Servicing
+LN100212,343591.92,closed_paid,87,2025-06-19,Northstar Mortgage Svc
+LN100215,368766.71,closed_paid,91,2025-05-02,Summit Home Loans
+LN100216,371368.7,current,0,2025-02-27,Meridian Loan Servicing
+LN100218,133513.89,90plus_dpd,115,2026-09-22,Meridian Loan Servicing
+LN100233,260084.05,current,0,2026-09-13,Coastal Capital Servicing
+LN100235,294685.99,closed_default,30,2026-11-09,Summit Home Loans
+LN100242,269002.11,current,0,2025-09-12,Summit Home Loans
+LN100243,167635.71,current,0,2025-04-26,Meridian Loan Servicing
+LN100244,78984.51,current,0,2026-10-03,BluePeak Servicing
+LN100246,118595.45,current,0,2026-01-24,Northstar Mortgage Svc
+LN100248,148088.7,current,0,2026-11-03,BluePeak Servicing
+LN100255,129638.4,30_dpd,43,2025-03-26,Summit Home Loans
+LN100256,165667.65,current,0,2026-12-03,BluePeak Servicing
+LN100257,224919.54,current,0,2025-03-29,Summit Home Loans
+LN100259,344411.98,current,0,2026-11-07,Meridian Loan Servicing
+LN100260,428705.3,closed_paid,39,2025-12-08,Meridian Loan Servicing
+LN100261,175259.18,closed_default,78,2026-10-03,BluePeak Servicing
+LN100263,185470.96,closed_paid,78,2025-10-01,Summit Home Loans
+LN100268,308959.3,60_dpd,72,2026-11-07,Meridian Loan Servicing
+LN100270,173164.75,current,0,2026-11-15,Coastal Capital Servicing
+LN100271,310759.28,90plus_dpd,104,2025-03-11,BluePeak Servicing
+LN100273,292988.89,90plus_dpd,90,2025-05-01,Summit Home Loans
+LN100275,351085.86,current,0,2025-11-20,Summit Home Loans
+LN100280,139733.11,closed_paid,0,2025-12-13,Coastal Capital Servicing
+LN100284,224494.95,30_dpd,14,2026-12-30,Northstar Mortgage Svc
+LN100285,157153.24,current,0,2026-10-14,Coastal Capital Servicing
+LN100290,246582.72,current,0,2025-04-01,Summit Home Loans
+LN100292,86653.91,current,0,2025-01-15,Meridian Loan Servicing
+LN100296,319070.54,90plus_dpd,44,2025-08-13,Northstar Mortgage Svc
+LN100297,81147.38,current,0,2025-03-19,BluePeak Servicing
+LN100298,397239.98,closed_default,0,2025-07-25,Summit Home Loans
+LN100301,165329.63,current,80,2026-12-07,Coastal Capital Servicing
+LN100302,304559.8,current,0,2025-02-13,Coastal Capital Servicing
+LN100303,512244.95,current,115,2025-11-11,Meridian Loan Servicing
+LN100308,432666.08,current,0,2026-04-10,Northstar Mortgage Svc
+LN100315,193467.65,closed_default,71,2026-12-23,Meridian Loan Servicing
+LN100317,215228.34,30_dpd,111,2025-07-29,Northstar Mortgage Svc
+LN100319,355335.78,current,0,2026-09-26,Coastal Capital Servicing
+LN100321,228824.83,current,0,2026-08-11,Summit Home Loans
+LN100332,62161.54,current,0,2025-07-09,Meridian Loan Servicing
+LN100333,127730.43,closed_paid,0,2025-04-12,Northstar Mortgage Svc
+LN100341,49218.68,60_dpd,75,2025-03-28,Summit Home Loans
+LN100343,187219.64,closed_paid,51,2025-08-20,Northstar Mortgage Svc
+LN100344,278609.29,current,0,2026-11-19,Coastal Capital Servicing
+LN100346,288702.81,current,0,2026-04-21,BluePeak Servicing
+LN100351,430366.59,current,0,2026-05-19,Northstar Mortgage Svc
+LN100353,227628.87,closed_paid,105,2025-12-02,BluePeak Servicing
+LN100354,198680.31,closed_paid,0,2026-03-16,Northstar Mortgage Svc
+LN100365,96163.71,closed_paid,0,2026-10-07,BluePeak Servicing
+LN100370,113711.03,current,0,2026-02-06,Summit Home Loans
+LN100375,456909.5,30_dpd,20,2025-07-30,Meridian Loan Servicing
+LN100377,214847.04,current,91,2026-06-14,Summit Home Loans
+LN100378,245270.79,closed_paid,78,2025-05-31,BluePeak Servicing
+LN100383,433263.06,current,0,2025-06-10,Summit Home Loans
+LN100387,217050.25,closed_default,107,2026-08-17,Meridian Loan Servicing
+LN100392,470933.94,closed_paid,72,2025-03-13,Coastal Capital Servicing
+LN100396,162779.71,90plus_dpd,133,2026-11-20,Summit Home Loans
+LN100398,366209.83,current,112,2026-08-09,Northstar Mortgage Svc
+LN100402,300883.46,current,0,2025-03-03,BluePeak Servicing
+LN100405,101798.77,current,18,2025-10-25,Coastal Capital Servicing
+LN100406,59104.79,current,0,2026-01-24,Northstar Mortgage Svc
+LN100409,273013.32,current,0,2026-02-10,BluePeak Servicing
+LN100411,199032.98,30_dpd,12,2025-05-02,Coastal Capital Servicing
+LN100413,441686.83,30_dpd,15,2026-12-16,BluePeak Servicing
+LN100418,286035.65,closed_default,112,2026-04-13,Summit Home Loans
+LN100419,385750.28,current,0,2026-07-05,Northstar Mortgage Svc
+LN100420,434641.38,current,0,2026-11-23,Summit Home Loans
+LN100425,87039.99,closed_paid,63,2025-04-15,Meridian Loan Servicing
+LN100427,80704.01,current,0,2026-09-05,Coastal Capital Servicing
+LN100428,231869.11,current,0,2026-06-18,Northstar Mortgage Svc
+LN100431,339644.93,90plus_dpd,25,2025-06-08,Summit Home Loans
+LN100432,341418.92,closed_default,0,2025-09-19,Summit Home Loans
+LN100433,313032.8,current,0,2026-11-29,Meridian Loan Servicing
+LN100436,310336.18,current,0,2026-02-23,Summit Home Loans
+LN100447,229159.49,current,0,2025-11-08,BluePeak Servicing
+LN100454,327459.11,current,0,2025-03-18,Northstar Mortgage Svc
+LN100456,376148.6,current,0,2025-10-07,Meridian Loan Servicing
+LN100457,118723.42,60_dpd,96,2026-02-03,Meridian Loan Servicing
+LN100462,167312.22,60_dpd,113,2025-07-10,Summit Home Loans
+LN100464,301976.9,90plus_dpd,85,2025-09-30,Coastal Capital Servicing
+LN100467,154878.27,90plus_dpd,67,2025-11-10,Coastal Capital Servicing
+LN100468,205360.42,current,0,2025-08-06,Coastal Capital Servicing
+LN100471,111565.1,current,0,2025-10-24,Meridian Loan Servicing
+LN100472,325847.45,closed_default,1,2026-06-10,BluePeak Servicing
+LN100473,163084.15,current,0,2026-10-20,Northstar Mortgage Svc
+LN100479,263879.23,current,0,2026-12-02,Northstar Mortgage Svc
+LN100488,71006.61,60_dpd,24,2026-07-19,Coastal Capital Servicing
+LN100490,251510.4,current,0,2025-08-09,Meridian Loan Servicing
+LN100492,67866.76,90plus_dpd,33,2026-04-30,Northstar Mortgage Svc
+LN100499,401678.55,60_dpd,26,2025-07-15,Meridian Loan Servicing
+LN100506,227671.63,30_dpd,26,2026-10-05,Northstar Mortgage Svc
+LN100509,384913.93,current,0,2025-04-05,Meridian Loan Servicing
+LN100514,110240.26,current,0,2026-08-13,Northstar Mortgage Svc
+LN100516,232567.13,closed_default,115,2026-01-13,Meridian Loan Servicing
+LN100520,335378.19,current,0,2025-04-23,Meridian Loan Servicing
+LN100522,327453.89,current,73,2025-09-30,Summit Home Loans
+LN100525,385463.25,current,12,2025-11-08,Meridian Loan Servicing
+LN100527,473503.25,closed_paid,0,2026-07-12,Meridian Loan Servicing
+LN100530,58152.86,closed_paid,0,2025-03-24,BluePeak Servicing
+LN100535,370476.93,current,0,2026-06-17,Meridian Loan Servicing
+LN100542,131228.96,90plus_dpd,72,2026-07-14,Northstar Mortgage Svc
+LN100544,106013.88,closed_paid,73,2025-09-05,Coastal Capital Servicing
+LN100546,323905.54,90plus_dpd,122,2025-08-19,BluePeak Servicing
+LN100554,276327.46,30_dpd,9,2025-02-09,Meridian Loan Servicing
+LN100555,363605.71,closed_default,108,2026-07-24,Coastal Capital Servicing
+LN100560,611819.19,current,0,2025-09-07,BluePeak Servicing
+LN100566,173492.75,current,0,2025-06-23,Coastal Capital Servicing
+LN100568,337277.0,30_dpd,64,2025-12-10,Northstar Mortgage Svc
+LN100569,297856.55,30_dpd,93,2026-05-24,Meridian Loan Servicing
+LN100572,199467.18,closed_paid,27,2026-02-23,Northstar Mortgage Svc
+LN100573,337789.01,current,0,2026-07-03,Northstar Mortgage Svc
+LN100574,120171.8,current,0,2025-08-23,Meridian Loan Servicing
+LN100583,138431.06,current,0,2026-07-05,Summit Home Loans
+LN100590,270891.38,90plus_dpd,77,2026-12-29,Northstar Mortgage Svc
+LN100594,84808.89,60_dpd,44,2026-10-20,Northstar Mortgage Svc
+LN100601,186028.18,60_dpd,43,2026-05-29,BluePeak Servicing
+LN100612,111014.79,current,0,2026-07-24,Northstar Mortgage Svc
+LN100615,248013.71,current,0,2026-04-29,Northstar Mortgage Svc
+LN100616,421380.73,closed_paid,59,2026-04-16,Northstar Mortgage Svc
+LN100627,382455.95,closed_paid,64,2025-11-13,Summit Home Loans
+LN100640,83117.23,30_dpd,11,2026-05-05,BluePeak Servicing
+LN100643,124907.97,current,113,2026-04-27,Northstar Mortgage Svc
+LN100645,193620.68,30_dpd,28,2025-08-19,Summit Home Loans
+LN100646,196211.37,30_dpd,5,2025-02-05,BluePeak Servicing
+LN100650,298679.67,closed_default,109,2026-09-26,BluePeak Servicing
+LN100653,108550.16,closed_default,78,2026-04-11,BluePeak Servicing
+LN100655,536983.58,current,0,2025-09-06,Coastal Capital Servicing
+LN100661,380252.38,closed_default,0,2025-01-27,Meridian Loan Servicing
+LN100667,281753.01,30_dpd,90,2026-03-17,Summit Home Loans
+LN100668,145378.14,closed_default,0,2026-06-26,Meridian Loan Servicing
+LN100671,525058.99,90plus_dpd,103,2026-11-07,Coastal Capital Servicing
+LN100672,283651.91,current,41,2026-07-29,Northstar Mortgage Svc
+LN100676,400165.89,current,0,2025-02-12,Summit Home Loans
+LN100680,117120.34,current,0,2026-02-24,BluePeak Servicing
+LN100684,215378.96,current,69,2026-10-30,Northstar Mortgage Svc
+LN100688,321323.35,90plus_dpd,121,2026-01-07,Meridian Loan Servicing
+LN100699,431182.72,current,0,2025-08-11,Northstar Mortgage Svc
+LN100700,114990.35,current,0,2025-03-10,Summit Home Loans
+LN100701,111768.71,closed_default,47,2026-12-07,Coastal Capital Servicing
+LN100702,77477.71,closed_default,73,2025-08-23,Coastal Capital Servicing
+LN100704,172101.3,60_dpd,77,2026-07-04,Meridian Loan Servicing
+LN100706,510183.77,current,0,2025-05-07,Coastal Capital Servicing
+LN100710,441981.32,30_dpd,74,2026-05-19,BluePeak Servicing
+LN100711,335594.38,current,0,2026-02-07,Coastal Capital Servicing
+LN100716,497817.25,closed_default,48,2025-01-31,BluePeak Servicing
+LN100723,158865.26,current,0,2026-08-27,Coastal Capital Servicing
+LN100724,407824.3,90plus_dpd,97,2025-03-30,Meridian Loan Servicing
+LN100725,109652.56,current,0,2026-08-31,Summit Home Loans
+LN100726,74966.58,current,0,2026-03-13,Meridian Loan Servicing
+LN100727,132195.01,30_dpd,94,2026-09-12,Coastal Capital Servicing
+LN100728,245809.29,current,0,2026-01-02,Meridian Loan Servicing
+LN100730,130269.84,current,0,2026-05-07,Meridian Loan Servicing
+LN100734,554373.94,closed_paid,0,2025-10-05,Meridian Loan Servicing
+LN100738,99620.81,closed_paid,34,2025-05-11,Meridian Loan Servicing
+LN100739,77128.2,closed_paid,40,2025-08-14,Northstar Mortgage Svc
+LN100740,330924.74,closed_default,39,2026-03-22,Northstar Mortgage Svc
+LN100743,232936.01,60_dpd,116,2025-09-24,Meridian Loan Servicing
+LN100747,307513.23,30_dpd,20,2026-10-18,BluePeak Servicing
+LN100749,159909.47,current,0,2025-05-31,Coastal Capital Servicing
+LN100750,186980.4,current,0,2025-04-14,Coastal Capital Servicing
+LN100751,247168.03,current,0,2025-06-19,BluePeak Servicing
+LN100753,262270.83,current,38,2025-01-13,Coastal Capital Servicing
+LN100758,314848.62,closed_default,1,2025-06-03,Northstar Mortgage Svc
+LN100760,96237.67,current,0,2025-05-22,Summit Home Loans
+LN100763,377171.67,current,0,2025-09-16,Meridian Loan Servicing
+LN100766,429837.21,current,0,2025-03-06,Summit Home Loans
+LN100770,349619.22,closed_paid,0,2025-05-05,Meridian Loan Servicing
+LN100772,334373.49,current,0,2025-08-21,Summit Home Loans
+LN100776,205575.69,closed_paid,96,2026-07-09,Coastal Capital Servicing
+LN100781,283585.94,30_dpd,57,2025-05-28,Coastal Capital Servicing
+LN100782,173543.26,current,55,2026-04-20,Summit Home Loans
+LN100784,538563.16,current,0,2026-06-19,Summit Home Loans
+LN100787,101468.93,current,0,2025-05-21,Northstar Mortgage Svc
+LN100791,109961.99,current,0,2025-07-29,Summit Home Loans
+LN100792,87138.26,90plus_dpd,13,2026-03-22,BluePeak Servicing
+LN100795,252890.93,closed_paid,0,2025-03-27,Northstar Mortgage Svc
+LN100798,92499.86,30_dpd,9,2026-07-07,BluePeak Servicing
+LN100816,179512.93,current,0,2026-06-04,Coastal Capital Servicing
+LN100821,584267.51,current,0,2026-08-10,Summit Home Loans
+LN100833,457550.95,current,0,2025-07-04,Northstar Mortgage Svc
+LN100834,272462.99,30_dpd,17,2026-04-13,Summit Home Loans
+LN100835,175129.97,current,0,2026-10-26,Meridian Loan Servicing
+LN100836,456688.77,closed_paid,0,2025-08-29,BluePeak Servicing
+LN100839,442941.91,current,0,2026-01-19,Meridian Loan Servicing
+LN100841,101492.76,current,0,2025-12-18,Coastal Capital Servicing
+LN100847,155659.36,closed_paid,0,2025-11-08,BluePeak Servicing
+LN100851,302904.23,current,113,2025-04-03,BluePeak Servicing
+LN100857,205046.32,current,0,2025-04-11,Summit Home Loans
+LN100864,311551.96,closed_paid,24,2026-12-19,Coastal Capital Servicing
+LN100865,323086.28,30_dpd,8,2026-07-17,Summit Home Loans
+LN100866,241529.71,current,0,2025-03-03,Summit Home Loans
+LN100874,87396.51,60_dpd,49,2025-03-09,Northstar Mortgage Svc
+LN100877,432310.84,closed_default,84,2025-01-29,Summit Home Loans
+LN100878,529203.06,closed_paid,0,2025-02-01,Meridian Loan Servicing
+LN100881,308902.67,current,0,2026-08-18,Meridian Loan Servicing
+LN100882,98452.62,30_dpd,15,2026-03-08,Coastal Capital Servicing
+LN100883,176615.9,60_dpd,74,2025-09-06,Coastal Capital Servicing
+LN100885,263558.29,closed_default,0,2025-01-01,Coastal Capital Servicing
+LN100889,375063.29,closed_paid,0,2025-07-04,Coastal Capital Servicing
+LN100890,209283.02,current,0,2026-10-26,Summit Home Loans
+LN100892,236739.38,current,0,2025-11-12,Summit Home Loans
+LN100900,337412.17,current,0,2025-03-10,BluePeak Servicing
+LN100902,351307.4,closed_paid,0,2026-07-02,Coastal Capital Servicing
+LN100906,273429.12,current,0,2025-01-17,Northstar Mortgage Svc
+LN100907,244569.7,60_dpd,37,2025-08-29,BluePeak Servicing
+LN100908,235163.74,current,58,2026-02-18,Northstar Mortgage Svc
+LN100912,204009.28,current,0,2026-12-20,Summit Home Loans
+LN100913,181614.12,closed_default,17,2026-05-15,Coastal Capital Servicing
+LN100917,491008.91,current,0,2026-02-03,BluePeak Servicing
+LN100918,104414.43,90plus_dpd,74,2026-01-07,Northstar Mortgage Svc
+LN100920,223996.63,closed_paid,10,2025-08-07,Meridian Loan Servicing
+LN100928,521737.25,closed_paid,0,2026-08-16,Summit Home Loans
+LN100929,85571.16,closed_paid,0,2025-12-21,BluePeak Servicing
+LN100932,52368.08,90plus_dpd,84,2026-10-05,Coastal Capital Servicing
+LN100935,470861.28,closed_paid,23,2025-03-21,Northstar Mortgage Svc
+LN100940,336175.5,current,0,2026-06-22,Meridian Loan Servicing
+LN100942,341516.66,current,0,2025-02-28,BluePeak Servicing
+LN100946,219352.55,30_dpd,55,2025-05-01,Coastal Capital Servicing
+LN100953,134842.58,90plus_dpd,88,2025-08-20,Coastal Capital Servicing
+LN100960,429358.82,current,70,2026-04-16,Northstar Mortgage Svc
+LN100964,166678.53,current,0,2025-11-19,Meridian Loan Servicing
+LN100967,167998.37,60_dpd,21,2026-03-22,Summit Home Loans
+LN100976,469946.01,current,0,2025-01-18,Coastal Capital Servicing
+LN100979,58317.81,60_dpd,35,2026-04-18,BluePeak Servicing
+LN100980,135774.76,60_dpd,50,2026-02-02,BluePeak Servicing
+LN100981,433867.73,current,2,2025-11-05,Northstar Mortgage Svc
+LN100983,218012.92,current,0,2025-06-13,Coastal Capital Servicing
+LN100998,117241.35,60_dpd,34,2025-04-26,Meridian Loan Servicing
+LN101001,317177.59,current,0,2026-06-29,Meridian Loan Servicing
+LN101003,93788.66,60_dpd,80,2025-02-17,Coastal Capital Servicing
+LN101004,548106.5,current,0,2026-03-23,Northstar Mortgage Svc
+LN101005,446203.61,90plus_dpd,130,2025-11-09,Coastal Capital Servicing
+LN101009,286130.54,current,0,2025-11-12,Summit Home Loans
+LN101012,231516.86,current,0,2026-02-08,BluePeak Servicing
+LN101013,542009.6,current,0,2025-08-15,BluePeak Servicing
+LN101027,240276.25,current,0,2025-12-15,Coastal Capital Servicing
+LN101028,249073.13,closed_paid,0,2026-06-14,Summit Home Loans
+LN101032,429891.81,current,0,2025-04-02,Meridian Loan Servicing
+LN101034,130015.86,30_dpd,91,2026-04-18,BluePeak Servicing
+LN101036,308536.14,current,12,2026-01-24,Meridian Loan Servicing
+LN101038,175299.5,current,4,2025-07-13,Coastal Capital Servicing
+LN101039,152674.23,current,0,2025-08-24,BluePeak Servicing
+LN101042,459072.32,current,0,2026-05-02,Northstar Mortgage Svc
+LN101045,229407.07,current,0,2026-07-26,Meridian Loan Servicing
+LN101046,456950.48,current,0,2025-02-22,Northstar Mortgage Svc
+LN101052,280993.49,current,0,2025-11-04,Summit Home Loans
+LN101055,190470.26,current,0,2026-06-26,Summit Home Loans
+LN101057,371190.11,closed_default,51,2026-04-10,Northstar Mortgage Svc
+LN101064,252421.27,90plus_dpd,120,2025-03-13,Meridian Loan Servicing
+LN101065,270514.15,current,0,2026-06-19,Northstar Mortgage Svc
+LN101066,121699.01,current,0,2026-03-22,Meridian Loan Servicing
+LN101067,200039.79,closed_default,95,2026-10-03,Coastal Capital Servicing
+LN101068,143654.81,90plus_dpd,90,2026-02-01,Meridian Loan Servicing
+LN101069,341769.2,current,4,2026-02-27,BluePeak Servicing
+LN101071,102985.45,30_dpd,0,2026-11-16,Meridian Loan Servicing
+LN101075,54727.26,30_dpd,18,2026-02-02,BluePeak Servicing
+LN101079,420104.64,current,0,2025-07-10,Meridian Loan Servicing
+LN101086,133742.77,closed_paid,59,2025-05-06,Summit Home Loans
+LN101088,184964.43,closed_default,0,2026-01-22,Northstar Mortgage Svc
+LN101099,364527.29,current,0,2026-03-22,BluePeak Servicing
+LN101101,187416.81,current,0,2026-10-30,Northstar Mortgage Svc
+LN101117,181992.78,current,0,2025-04-30,Summit Home Loans
+LN101119,274914.91,current,0,2025-06-22,Northstar Mortgage Svc
+LN101120,468579.75,30_dpd,13,2025-06-27,Coastal Capital Servicing
+LN101127,259234.1,current,0,2026-07-29,Meridian Loan Servicing
+LN101128,347388.41,current,0,2026-07-04,BluePeak Servicing
+LN101129,197544.19,closed_default,89,2026-08-29,BluePeak Servicing
+LN101132,346919.05,closed_paid,19,2026-02-27,Northstar Mortgage Svc
+LN101139,471122.95,30_dpd,29,2026-03-15,Summit Home Loans
+LN101142,177022.49,closed_paid,0,2025-02-20,Northstar Mortgage Svc
+LN101145,326296.65,current,0,2026-05-12,Coastal Capital Servicing
+LN101147,268498.88,30_dpd,61,2026-11-08,Northstar Mortgage Svc
+LN101149,321614.44,60_dpd,40,2026-07-02,Coastal Capital Servicing
+LN101150,608163.91,closed_paid,0,2026-07-06,Summit Home Loans
+LN101161,172754.47,current,0,2026-08-24,Meridian Loan Servicing
+LN101166,218938.38,30_dpd,3,2026-11-29,Northstar Mortgage Svc
+LN101172,270680.52,30_dpd,28,2025-01-23,Northstar Mortgage Svc
+LN101173,95544.55,current,0,2025-12-06,Summit Home Loans
+LN101175,262694.73,60_dpd,93,2026-05-05,Northstar Mortgage Svc
+LN101176,228062.21,current,0,2026-12-27,BluePeak Servicing
+LN101177,177024.2,closed_default,51,2025-07-15,Summit Home Loans
+LN101178,520360.7,current,0,2026-08-08,BluePeak Servicing
+LN101179,452040.0,current,0,2026-08-28,Coastal Capital Servicing
+LN101180,118096.18,current,0,2026-12-17,Coastal Capital Servicing
+LN101183,315905.72,current,0,2026-03-04,Summit Home Loans
+LN101186,180951.68,90plus_dpd,111,2025-02-12,BluePeak Servicing
+LN101189,128839.65,closed_default,81,2025-08-17,Coastal Capital Servicing
+LN101205,337651.26,current,0,2025-08-26,Summit Home Loans
+LN101207,163855.77,current,0,2026-01-17,Coastal Capital Servicing
+LN101213,106407.11,90plus_dpd,15,2025-10-08,Meridian Loan Servicing
+LN101214,159475.06,closed_paid,74,2026-01-01,Northstar Mortgage Svc
+LN101224,241186.51,90plus_dpd,14,2025-08-08,BluePeak Servicing
+LN101225,249490.82,30_dpd,10,2026-03-17,Summit Home Loans
+LN101233,389504.69,current,0,2026-08-26,Coastal Capital Servicing
+LN101234,243160.27,current,0,2026-07-18,BluePeak Servicing
+LN101235,214280.57,90plus_dpd,117,2026-11-13,Northstar Mortgage Svc
+LN101237,296546.52,30_dpd,3,2025-07-25,Summit Home Loans
+LN101239,527757.71,current,0,2026-07-23,Meridian Loan Servicing
+LN101240,80394.32,current,0,2026-09-12,Northstar Mortgage Svc
+LN101241,75181.36,60_dpd,6,2026-02-25,Northstar Mortgage Svc
+LN101244,354698.49,current,0,2026-05-03,Summit Home Loans
+LN101245,218293.8,closed_default,104,2026-02-26,Northstar Mortgage Svc
+LN101247,247840.31,current,0,2026-07-22,Northstar Mortgage Svc
+LN101248,195913.27,closed_paid,0,2026-03-24,Coastal Capital Servicing
+LN101249,202916.06,60_dpd,111,2025-05-10,Meridian Loan Servicing
+LN101253,161661.15,current,0,2026-07-20,Summit Home Loans
+LN101257,314042.65,current,0,2026-09-25,Northstar Mortgage Svc
+LN101258,92452.01,closed_paid,0,2026-09-11,Summit Home Loans
+LN101259,112104.89,closed_paid,6,2025-04-19,BluePeak Servicing
+LN101261,101121.25,current,0,2026-10-29,Northstar Mortgage Svc
+LN101264,81017.55,30_dpd,9,2025-05-22,Northstar Mortgage Svc
+LN101267,409963.0,current,0,2025-10-27,Meridian Loan Servicing
+LN101269,168886.65,current,0,2025-05-13,Coastal Capital Servicing
+LN101274,47750.97,60_dpd,55,2026-11-23,Northstar Mortgage Svc
+LN101282,190580.57,60_dpd,118,2026-03-12,Northstar Mortgage Svc
+LN101288,246468.5,closed_default,0,2025-07-25,Coastal Capital Servicing
+LN101291,124874.61,closed_default,64,2026-02-28,Meridian Loan Servicing
+LN101296,71684.06,current,0,2026-11-22,Summit Home Loans
+LN101302,213640.3,current,0,2025-04-22,BluePeak Servicing
+LN101303,248831.78,current,0,2026-01-05,BluePeak Servicing
+LN101304,184700.71,current,0,2025-06-03,Meridian Loan Servicing
+LN101314,414798.48,current,0,2025-09-28,Northstar Mortgage Svc
+LN101326,75158.0,current,0,2026-07-17,Meridian Loan Servicing
+LN101333,411696.74,60_dpd,87,2025-04-24,Coastal Capital Servicing
+LN101336,278685.41,closed_default,18,2026-08-16,Summit Home Loans
+LN101342,351462.75,current,0,2025-12-07,BluePeak Servicing
+LN101344,332154.86,30_dpd,92,2026-07-23,Northstar Mortgage Svc
+LN101346,105288.21,current,0,2025-08-09,Northstar Mortgage Svc
+LN101353,176491.65,closed_paid,0,2026-06-24,Coastal Capital Servicing
+LN101354,343701.22,60_dpd,105,2025-01-23,Northstar Mortgage Svc
+LN101355,396272.05,current,0,2026-07-17,Coastal Capital Servicing
+LN101357,186418.56,closed_paid,0,2026-04-04,BluePeak Servicing
+LN101359,353203.18,current,0,2025-09-28,Coastal Capital Servicing
+LN101361,393007.47,current,0,2025-03-28,Summit Home Loans
+LN101362,251984.29,60_dpd,53,2025-05-31,Northstar Mortgage Svc
+LN101366,198496.85,90plus_dpd,98,2025-08-01,Summit Home Loans
+LN101368,190300.18,closed_default,46,2026-03-08,Coastal Capital Servicing
+LN101372,110793.47,current,0,2025-04-03,Summit Home Loans
+LN101378,484275.86,current,0,2025-12-31,Meridian Loan Servicing
+LN101381,90063.85,current,0,2026-03-04,BluePeak Servicing
+LN101385,575193.58,current,0,2026-02-13,Coastal Capital Servicing
+LN101387,326590.19,current,102,2025-07-18,Summit Home Loans
+LN101397,559325.38,current,0,2026-06-24,BluePeak Servicing
+LN101398,378525.17,closed_default,42,2025-07-31,BluePeak Servicing
+LN101404,428180.63,60_dpd,59,2026-04-11,Coastal Capital Servicing
+LN101407,343675.48,current,0,2026-11-02,Northstar Mortgage Svc
+LN101410,484121.44,current,0,2026-01-09,BluePeak Servicing
+LN101418,544927.14,current,0,2026-07-09,Northstar Mortgage Svc
+LN101434,303765.6,90plus_dpd,117,2025-09-02,Summit Home Loans
+LN101437,100925.17,current,0,2026-06-17,BluePeak Servicing
+LN101441,220075.63,60_dpd,10,2026-12-20,Meridian Loan Servicing
+LN101448,208068.0,current,0,2025-09-01,Coastal Capital Servicing
+LN101453,292952.02,current,33,2026-05-19,Northstar Mortgage Svc
+LN101454,477907.64,60_dpd,36,2026-10-25,Coastal Capital Servicing
+LN101459,178002.19,30_dpd,19,2025-10-28,Coastal Capital Servicing
+LN101461,342268.2,90plus_dpd,148,2025-06-10,Northstar Mortgage Svc
+LN101464,428072.31,closed_paid,0,2026-11-07,Summit Home Loans
+LN101469,70412.79,90plus_dpd,48,2026-06-24,BluePeak Servicing
+LN101473,219177.72,current,0,2025-05-19,BluePeak Servicing
+LN101479,92855.72,current,116,2026-06-30,Northstar Mortgage Svc
+LN101481,448524.06,60_dpd,11,2025-07-22,Northstar Mortgage Svc
+LN101487,197356.57,current,114,2026-10-28,Summit Home Loans
+LN101488,608669.19,current,0,2025-02-07,Summit Home Loans
+LN101490,139919.8,30_dpd,46,2025-09-07,Northstar Mortgage Svc
+LN101491,216633.37,current,0,2025-06-05,Meridian Loan Servicing
+LN101493,186790.27,current,0,2026-08-25,BluePeak Servicing
+LN101494,328469.7,closed_default,107,2025-04-12,Coastal Capital Servicing
+LN101495,499398.27,current,0,2025-04-24,BluePeak Servicing
+LN101497,260263.3,current,0,2026-04-23,Northstar Mortgage Svc
